@@ -462,7 +462,7 @@ public class Scanner {
             case ' ':
                 nextCh();
                 t.kind = charCon;
-                System.out.println("ERROR. No character close found, character stored as " + t.string + " on line " + t.line);
+                System.out.println("ERROR. TESTTESTTEST. No character close found, character stored as " + t.string + " on line " + t.line);
                 break; /// 'x  If space after charcter, returns as t.val but also error.
             default:
                 System.out.println("ERROR. The charater not closed properly, or invalid length on line " + t.line);
