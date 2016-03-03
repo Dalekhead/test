@@ -212,7 +212,7 @@ public class Scanner {
                     nextCh();
                     t.kind = neq;
                 } else {
-                    System.out.println("unused exclaimation mark !");///need to return error?;
+                    System.out.println("XXXXXXXXXXXXXXunused exclaimation mark !");///need to return error?;
                 }
                 break;
 
@@ -400,7 +400,7 @@ public class Scanner {
                         t.val = (t.val * 10) + Character.getNumericValue(ch);
                     } //makes sure t.val is low enough to not produce an overflow (>2147483647) after equation
                     else {
-                        System.out.println("ERROR. Number reset to zero as too large, on line " + t.line);
+                        System.out.println("ERROR. XXXXXXXXXXXXXXXXXNumber reset to zero as too large, on line " + t.line);
                         t.val = 0;
                     }
                     ;
